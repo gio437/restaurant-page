@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    overflow: hidden; /* this will center the object */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h3 {
+    width: 750px;
+}
+
+button {
+    margin: 30px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #pineapple {
+    height: 400px;
+    width: 400px;
+  }
+
+  #pineapple-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  #pizza {
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
